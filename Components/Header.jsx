@@ -7,15 +7,14 @@ function Header() {
     <div className="py-5 px-5 md:px-12 lg:px-28">
       <div className="flex justify-between items-center">
         {/* Smaller Logo */}
-        <Image src={asserts.logo} width={180}height={40} alt="Logo" className="w-32.5 sm:w-auto"
-        />
+        <Image src={asserts.logo} width={180}height={40} alt="Logo" className='w-32.5 sm:w-auto' />
 
         {/* Button with softer shadow */}
         <button
           className="flex items-center gap-2 font-medium py-2 px-4 sm:py-3 sm:px-6 border border-black shadow-[-7px_7px_0px_#000]"
         >
           Get Started
-          <Image src={asserts.arrows} width={20} height={20} alt="Arrow" className="w-5"
+          <Image src={asserts.arrow} width={20} height={20} alt="Arrow" className="w-5"
           />
         </button>
       </div>
